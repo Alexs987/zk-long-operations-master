@@ -7,6 +7,10 @@ public class Test {
 		System.out.println("Clase de ejemplo!");
 	}
 	
+	public void mensajeBienvenida() {
+		System.out.println("Mensaje de bienvenida!");
+	}
+	
 	public static void main(String[] args) {
 		Test test = new Test();
 		test.hola();
